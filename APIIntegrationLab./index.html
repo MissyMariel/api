@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API Integration Lab</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.user-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+.user-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.user-card p {
+    margin: 5px 0;
+    color: #555;
+}
+.search-container {
+    margin-bottom: 20px;
+}
+.search-container input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<h1>Fetch and Display User Data from API</h1>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search users...">
+</div>
+<button id="fetchUsersBtn">Fetch Users</button>
+<div id="userContainer"></div>
+<script src="script.js"></script>
+</body>
+</html>
